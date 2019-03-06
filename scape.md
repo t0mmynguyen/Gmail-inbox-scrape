@@ -1,6 +1,4 @@
 function processUnreadEmails() {
-    //******SCRIPT SHOULD ONLY BE RAN ON THE test INBOX******
-    
     //exclude emails that SHOULD NOT be signed up in ET
     var excludeEmailsArr = ["apps-scripts-notifications@google.com"];
     
