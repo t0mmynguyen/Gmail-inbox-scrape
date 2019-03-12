@@ -35,7 +35,7 @@ function processUnreadEmails() {
           
           Logger.log(signupLink); 
           
-          //Http request to signup api
+          //Http request to endpoint api
           var response = UrlFetchApp.fetch(signupLink);
           //Logger.log(response.getContentText());
         } 
